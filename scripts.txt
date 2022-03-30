@@ -1,0 +1,7 @@
+#Get error on trying to attach external snippet
+
+javadoc Example.java -d javadoc
+
+#Is able to attach external snippet
+
+javadoc Example.java -d javadoc --snippet-path snippet-files
